@@ -100,7 +100,7 @@ h6 {
 /* INICIO */
 
 .header {
-    background: url('../media/bg-imagen1.jpg');
+    background: url('/media/bg-imagen1.jpg');
     background-position: center;
 }
 

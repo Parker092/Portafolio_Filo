@@ -1,0 +1,294 @@
+/* ------------------------- */
+
+
+/* Estilos Generales */
+
+
+/* ------------------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.texto-naranja {
+    font-weight: 400;
+    color: orange;
+}
+
+.texto-blanco {
+    font-weight: 300;
+    color: #fff;
+}
+
+.texto-negro {
+    color: #000;
+}
+
+#fp-nav ul li a span {
+    background: orange;
+}
+
+#fp-nav ul li .fp-tooltip {
+    color: orange;
+}
+
+
+/* MENU NAV */
+
+.nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 70;
+    width: 100%;
+    margin: 0;
+    padding: 10px, 20px;
+}
+
+.nav .logo .logo-main {
+    display: inline-block;
+    width: 45px;
+    margin-right: 20px;
+}
+
+.nav li,
+.nav a {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #c2c2c2;
+    transition: .5s ease;
+}
+
+.nav li.active {
+    border-bottom: 1px solid orange;
+}
+
+.menu li a {
+    transition: .5s ease;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li.active a,
+.menu li:hover a {
+    color: orange;
+}
+
+
+/* INICIO */
+
+.header {
+    background: url('../media/bg-imagen1.jpg');
+    background-position: center;
+}
+
+.header .contenedor-titulo {
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+
+.header .titulo {
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.header .cont-icono {
+    position: absolute;
+    z-index: 99;
+    bottom: 3%;
+    left: 50%;
+    font-size: 40px;
+    animation: animacion-ico 1s ease infinite;
+}
+
+.cont-icono {
+    position: absolute;
+    z-index: 99;
+    bottom: 3%;
+    left: 50%;
+    font-size: 40px;
+    animation: animacion-ico 1s ease infinite;
+}
+
+
+/* VIDEO */
+
+.bg-video {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-size: 100%;
+    background: #000;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+}
+
+
+/* PRESENTACIONES */
+
+
+/* PRESENTACION 1 */
+
+.pres1 article {
+    background-position: center;
+    background-size: cover;
+}
+
+.pres1 article:nth-child(1) {
+    background-image: url(../media/platon-biografia-pensamiento-obras.jpg);
+}
+
+.pres1 article:nth-child(2) {
+    background-image: url(../media/platon-biografia-pensamiento-obras.jpg);
+}
+
+.pres1 article:nth-child(3) {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-size: 100%;
+    background: #000;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+}
+
+.pres1 .info-pres1 {
+    margin: 0 60px;
+}
+
+.pres1 .info-pres1::before {
+    content: "";
+    height: 60px;
+    width: 2px;
+    display: inline-block;
+    background: orange;
+    position: absolute;
+    top: 50.5%;
+    margin: -10px;
+}
+
+.pres1 .nombre {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.pres1 .descripcion {
+    font-size: 20px;
+}
+
+
+/* PRESENTACION 2 */
+
+.pres2 article {
+    background-position: center;
+    background-size: cover;
+}
+
+.pres2 article:nth-child(1) {
+    background-image: url(../media/SAN-GREGORIO.jpg);
+}
+
+.pres2 article:nth-child(2) {
+    background-image: url(../media/SAN-GREGORIO.jpg);
+}
+
+.pres2 article:nth-child(3) {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-size: 100%;
+    background: #000;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+}
+
+.pres2 .info-pres2 {
+    margin: 0 60px;
+}
+
+.pres2 .info-pres2::before {
+    content: "";
+    height: 60px;
+    width: 2px;
+    display: inline-block;
+    background: orange;
+    position: absolute;
+    top: 50.5%;
+    margin: -10px;
+}
+
+.pres2 .nombre {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.pres2 .descripcion {
+    font-size: 20px;
+}
+
+
+/* SLIDERS */
+
+.fp-controlArrow.fp-next,
+.fp-controlArrow.fp-prev {
+    top: 90%;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 80%;
+    border-width: 20px 20px 20px 0;
+    border-color: transparent #fff transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+    right: 50px;
+    border-width: 20px 0px 20px 20px;
+    border-color: transparent transparent transparent #fff;
+}
+
+
+/* ANIMACIONES */
+
+@keyframes animacion-ico {
+    0% {
+        transform: translateY(20px);
+    }
+    25% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}

@@ -94,7 +94,7 @@ h6 {
 /* INICIO */
 
 .header {
-    background: url('/media/bg-imagen1.jpg');
+    background: url('media/bg-imagen1.jpg');
     background-position: center;
 }
 
@@ -175,11 +175,11 @@ h6 {
 }
 
 .pres1 article:nth-child(1) {
-    background-image: url(/media/platon-biografia-pensamiento-obras.jpg);
+    background-image: url('media/platon-biografia-pensamiento-obras.jpg');
 }
 
 .pres1 article:nth-child(2) {
-    background-image: url(/media/platon-biografia-pensamiento-obras.jpg);
+    background-image: url('media/platon-biografia-pensamiento-obras.jpg');
 }
 
 .pres1 article:nth-child(3) {
@@ -228,11 +228,11 @@ h6 {
 }
 
 .pres2 article:nth-child(1) {
-    background-image: url(/media/SAN-GREGORIO.jpg);
+    background-image: url('media/SAN-GREGORIO.jpg');
 }
 
 .pres2 article:nth-child(2) {
-    background-image: url(/media/SAN-GREGORIO.jpg);
+    background-image: url('media/SAN-GREGORIO.jpg');
 }
 
 .pres2 article:nth-child(3) {
@@ -281,11 +281,11 @@ h6 {
 }
 
 .pres3 article:nth-child(1) {
-    background-image: url(/media/frases-spinoza.jpg);
+    background-image: url('media/frases-spinoza.jpg');
 }
 
 .pres3 article:nth-child(2) {
-    background-image: url(/media/frases-spinoza.jpg);
+    background-image: url('media/frases-spinoza.jpg');
 }
 
 .pres3 article:nth-child(3) {
@@ -334,11 +334,11 @@ h6 {
 }
 
 .pres4 article:nth-child(1) {
-    background-image: url(/media/8E9CA352-FFC9-4A0F-958E-D0253E9F36D3_w1597_n_r1_st.jpg);
+    background-image: url('media/8E9CA352-FFC9-4A0F-958E-D0253E9F36D3_w1597_n_r1_st.jpg');
 }
 
 .pres4 article:nth-child(2) {
-    background-image: url(/media/8E9CA352-FFC9-4A0F-958E-D0253E9F36D3_w1597_n_r1_st.jpg);
+    background-image: url('media/8E9CA352-FFC9-4A0F-958E-D0253E9F36D3_w1597_n_r1_st.jpg');
 }
 
 .pres4 article:nth-child(3) {
@@ -382,7 +382,7 @@ h6 {
 /* FOOTER */
 
 .footer {
-    background: url('/media/bg-imagen1.jpg');
+    background: url('media/bg-imagen1.jpg');
     background-position: center;
 }
 

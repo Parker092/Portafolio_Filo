@@ -1,10 +1,4 @@
-/* ------------------------- */
-
-
 /* Estilos Generales */
-
-
-/* ------------------------- */
 
 * {
     box-sizing: border-box;
@@ -136,7 +130,7 @@ h6 {
 
 /* VIDEO */
 
-.bg-video {
+.video {
     position: absolute;
     z-index: 10;
     right: 0;
@@ -147,6 +141,26 @@ h6 {
     background-position: center;
     background-size: contain;
     object-fit: cover;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16/9 ratio */
+    padding-top: 30px;
+    /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe,
+.video object,
+.video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -161,11 +175,11 @@ h6 {
 }
 
 .pres1 article:nth-child(1) {
-    background-image: url(../media/platon-biografia-pensamiento-obras.jpg);
+    background-image: url(/media/platon-biografia-pensamiento-obras.jpg);
 }
 
 .pres1 article:nth-child(2) {
-    background-image: url(../media/platon-biografia-pensamiento-obras.jpg);
+    background-image: url(/media/platon-biografia-pensamiento-obras.jpg);
 }
 
 .pres1 article:nth-child(3) {
@@ -214,11 +228,11 @@ h6 {
 }
 
 .pres2 article:nth-child(1) {
-    background-image: url(../media/SAN-GREGORIO.jpg);
+    background-image: url(/media/SAN-GREGORIO.jpg);
 }
 
 .pres2 article:nth-child(2) {
-    background-image: url(../media/SAN-GREGORIO.jpg);
+    background-image: url(/media/SAN-GREGORIO.jpg);
 }
 
 .pres2 article:nth-child(3) {
@@ -256,6 +270,149 @@ h6 {
 
 .pres2 .descripcion {
     font-size: 20px;
+}
+
+
+/* PRESENTACION 3 */
+
+.pres3 article {
+    background-position: center;
+    background-size: cover;
+}
+
+.pres3 article:nth-child(1) {
+    background-image: url(/media/frases-spinoza.jpg);
+}
+
+.pres3 article:nth-child(2) {
+    background-image: url(/media/frases-spinoza.jpg);
+}
+
+.pres3 article:nth-child(3) {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-size: 100%;
+    background: #000;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+}
+
+.pres3 .info-pres3 {
+    margin: 0 60px;
+}
+
+.pres3 .info-pres3::before {
+    content: "";
+    height: 90px;
+    width: 2px;
+    display: inline-block;
+    background: orange;
+    position: absolute;
+    top: 50%;
+    margin: -10px;
+}
+
+.pres3 .nombre {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.pres3 .descripcion {
+    font-size: 20px;
+}
+
+
+/* PRESENTACION 4 */
+
+.pres4 article {
+    background-position: center;
+    background-size: cover;
+}
+
+.pres4 article:nth-child(1) {
+    background-image: url(/media/8E9CA352-FFC9-4A0F-958E-D0253E9F36D3_w1597_n_r1_st.jpg);
+}
+
+.pres4 article:nth-child(2) {
+    background-image: url(/media/8E9CA352-FFC9-4A0F-958E-D0253E9F36D3_w1597_n_r1_st.jpg);
+}
+
+.pres4 article:nth-child(3) {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-size: 100%;
+    background: #000;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+}
+
+.pres4 .info-pres4 {
+    margin: 0 60px;
+}
+
+.pres4 .info-pres4::before {
+    content: "";
+    height: 90px;
+    width: 2px;
+    display: inline-block;
+    background: orange;
+    position: absolute;
+    top: 50%;
+    margin: -10px;
+}
+
+.pres4 .nombre {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.pres4 .descripcion {
+    font-size: 20px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background: url('/media/bg-imagen1.jpg');
+    background-position: center;
+}
+
+.footer .contenedor-titulo {
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+
+.footer .titulo {
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.footer .cont-icono {
+    position: absolute;
+    z-index: 99;
+    bottom: 3%;
+    left: 50%;
+    font-size: 40px;
+    animation: animacion-ico 1s ease infinite;
+}
+
+.cont-icono {
+    position: absolute;
+    z-index: 99;
+    bottom: 3%;
+    left: 50%;
+    font-size: 40px;
+    animation: animacion-ico 1s ease infinite;
 }
 
 
